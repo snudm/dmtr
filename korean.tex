@@ -7,12 +7,13 @@
 \documentclass[11pt]{article}           % set fontsize
 
 \renewcommand{\baselinestretch}{1.3}    % set line height
-\renewcommand{\today}{April 14, 2015}   % set date
+\renewcommand{\today}{April 14, 2015}   % TODO: set date
 \usepackage{geometry}                   % set margin
     \geometry{a4paper, left=20mm, right=20mm, top=25mm, bottom=25mm}
 \usepackage{kotex}                      % in case you use Korean
     \renewcommand{\figurename}{그림}    % delete for English documents
     \renewcommand{\tablename}{표}       % delete for English documents
+    \renewcommand{\refname}{참고문헌}   % delete for English documents
 \usepackage{graphicx}                   % for png images
 \usepackage{hyperref}                   % for urls
 \usepackage{fancyhdr}                   % for header (should come after hyperref)
@@ -21,9 +22,10 @@
         \fancyhead[L]{
             \href{http://dm.snu.ac.kr}{SNU Data Mining Center}
         }
-        \fancyhead[R]{SNUDM-TR-2015-01}
+        \fancyhead[R]{SNUDM-TR-2015-01} % TODO
     }
 
+% Begin document
 \begin{document}
 \title{\LaTeX Template for SNUDM Technical Reports}
 \author{
